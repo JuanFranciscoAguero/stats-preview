@@ -1,0 +1,39 @@
+/*Mobile Design*/
+
+@media(max-width: 375px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    body {
+        font-size: 8px;
+        padding: 30px;
+        margin: 30px;
+    }
+    .container {
+        display: grid;
+        grid-template-rows: repeat(2, 1fr);
+        margin-right: 30px;
+    }
+    .preview-page {
+        padding: 30px;
+        position: absolute;
+        top: 210px;
+        left: 50px;
+        height: 360px;
+        width: 300px;
+    }
+    .background-image img {
+        width: 300px;
+        height: 230px;
+        position: absolute;
+        top: 25px;
+        left: 50px;
+    }
+    .attribution {
+        position: absolute;
+        bottom: 15px;
+        left: 45px;
+    }
+}
