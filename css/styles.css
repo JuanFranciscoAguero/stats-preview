@@ -12,8 +12,7 @@ body {
 .container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    margin: 25px;
-    border-radius: 20px;
+    margin: 25px 200px;
 }
 
 .preview-page {
